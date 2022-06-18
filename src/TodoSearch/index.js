@@ -9,15 +9,18 @@ function TodoSearch() {
   };
   return (
     <React.StrictMode>
+      <form>
+        
       <label className="searchLabel">
         Buscador de tareas:
       </label>
       <input
-        placeholder = "Ingresa acá el nombre de la tarea a buscar"
+        placeholder = "Busca una tarea"
         className = "TodoSearch"
         value = {searchValue}
         onChange = {onSearchValueChange}
       />
+      </form>
     </React.StrictMode>
   );
 }

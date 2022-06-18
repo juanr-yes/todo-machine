@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #F4F7FF;
+  background: ;
   color: #1e1e1f;
   font-family: montserrat,Arial,Helvetica,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,7 @@ body {
 }
 
 #root {
-  margin:0 24px;
-  position:relative;
-  min-height:100vh
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }

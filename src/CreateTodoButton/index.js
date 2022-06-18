@@ -6,12 +6,12 @@ function CreateTodoButton(props) {
     props.setOpenModal(prevState => !prevState)
   };
   return(
-    <button
+    <div
       className="CreateTodoButton"
       onClick={onClickButton}
     >
       +
-    </button>
+    </div>
   );
 }
 export { CreateTodoButton };

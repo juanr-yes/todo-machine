@@ -20,7 +20,7 @@ function TodoForm() {
     setNewTodoValue(e.target.value);
   }
   return (
-    <form onSubmit={onSubmit}>
+    <form className="TodoForm" onSubmit={onSubmit}>
       <label>
         Ingresa la tarea
       </label>
